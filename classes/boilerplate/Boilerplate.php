@@ -173,6 +173,7 @@
             'actual_endpoints' => [
                 'the_core_class_documentation' => 'http://mi.project/boilerplate',
                 'the_file_structure_documentation' => 'http://mi.project/files',
+                'the_attributes_list_for_the_form_html' => 'http://mi.project/attrsList',
                 'the_404_error_code_page' => 'http://miproject/x',
                 'the_default_index_page' => 'http://mi.project'
             ]

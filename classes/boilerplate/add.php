@@ -52,6 +52,12 @@ require_once './classes/boilerplate/Boilerplate.php';
 
             case 'files': files(); break;
 
+            case 'attrsList': 
+                    require_once './classes/galleta/Galleta.php';
+                    $gobj = new Galleta;
+                    echo $gobj->attrs_list();
+                break;
+
             default: echo json_encode([
                 'status' => 404,
                 'result' => 'not found page',
