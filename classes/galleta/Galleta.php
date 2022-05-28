@@ -12,6 +12,47 @@ class Galleta {
                     'Value' => 'character_set',
                     'Description' => 'Specifies the character encodings
                     that are to be used for the form submission.'
+                ],
+                'attr_02' => [
+                    'Attribute' => 'action',
+                    'Value' => 'URL',
+                    'Description' => 'Specifies where to send t
+                    he form-data when a form is submitted'
+                ],
+                'attr_03' => [
+                    'Attribute' => '',
+                    'Value' => '',
+                    'Description' => ''
+                ],
+                'attr_04' => [
+                    'Attribute' => '',
+                    'Value' => '',
+                    'Description' => ''
+                ],
+                'attr_05' => [
+                    'Attribute' => '',
+                    'Value' => '',
+                    'Description' => ''
+                ],
+                'attr_06' => [
+                    'Attribute' => '',
+                    'Value' => '',
+                    'Description' => ''
+                ],
+                'attr_07' => [
+                    'Attribute' => '',
+                    'Value' => '',
+                    'Description' => ''
+                ],
+                'attr_08' => [
+                    'Attribute' => '',
+                    'Value' => '',
+                    'Description' => ''
+                ],
+                'attr_09' => [
+                    'Attribute' => '',
+                    'Value' => '',
+                    'Description' => ''
                 ]
             ]
         ];
