@@ -32,6 +32,7 @@
 
         }
 
+        #Controller Multi-responses (differents data types)
         public function response (null|string|array|int|float|bool $x = 'info') {
 
 
