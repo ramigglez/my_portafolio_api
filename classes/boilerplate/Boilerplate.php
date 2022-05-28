@@ -171,7 +171,7 @@
             'this_function' => 'will be executed when the uri have not parameters.',
             'actual_endpoints' => [
                 'the_core_class_documentation' => 'http://mi.project/boilerplate',
-                'the_file_structure' => 'http://mi.project/files',
+                'the_file_structure_documentation' => 'http://mi.project/files',
                 'the_404_error_code_page' => 'http://miproject/x',
                 'the_default_index_page' => 'http://mi.project'
             ]
