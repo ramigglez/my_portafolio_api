@@ -2,7 +2,7 @@
     //section 01
     class Boilerplate implements jsonResp {
 
-        private function validar_hash ($info_json,$output = 1) {
+        public function validar_hash ($info_json,$output = 1) {
 
             $path = [];
 
