@@ -5,7 +5,7 @@
 
 <pre>
 
-this project is a api and projects manager 
+this project is an api and a projects manager 
 
 ("administrador de proyectos web")
 
