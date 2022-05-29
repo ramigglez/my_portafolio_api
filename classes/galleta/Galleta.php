@@ -20,9 +20,9 @@ class Galleta {
                     he form-data when a form is submitted'
                 ],
                 'attr_03' => [
-                    'Attribute' => '',
-                    'Value' => '',
-                    'Description' => ''
+                    'Attribute' => 'autocomplete',
+                    'Value' => 'on/off',
+                    'Description' => 'Specifies whether a form should have autocomplete on or off'
                 ],
                 'attr_04' => [
                     'Attribute' => '',
