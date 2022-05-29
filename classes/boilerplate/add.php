@@ -58,6 +58,14 @@ require_once './classes/boilerplate/Boilerplate.php';
                     echo $gobj->attrs_list();
                 break;
 
+            case 'todo': 
+                    echo json_encode([
+                        'status' => 200,
+                        'result' => 'to-do list program coming soon',
+                        'project_status' => 'underconstruction'
+                    ],http_response_code(200));
+                break;
+
             default: echo json_encode([
                 'status' => 404,
                 'result' => 'not found page',
