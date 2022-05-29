@@ -6,7 +6,7 @@ ini_set('error_log','/var/www/mi.project/portafolio/php_error_log');
 
     //Ceros inicales para que un hash sea valido
     #si la cantidad de ceros int aumenta , el string debe de coincidir en longitud tambien (section_02)
-    $ceros = (isset($_GET['cs']) ? (int)$_GET['cs'] : (int)2);
+    $ceros = 3;
     define('CEROS_INT',$ceros);
     define('CEROS_STR',str_repeat('0',CEROS_INT));
     //archivo principal (section_03)
