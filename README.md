@@ -41,3 +41,12 @@ this project use the lamp stack
 ## 4- stay tune for the video course 
 
 ### ("planeo crear videos cortos que aclaren los detalles mas dificiles de entender")
+
+<h2>Branches</h2>
+
+<pre>
+the branch next_ciclo_01 se enfoca en la clase cookie
+
+mientras que el branch next_ciclo_02 
+se enfoca en el proyecto to-do list
+</pre>
