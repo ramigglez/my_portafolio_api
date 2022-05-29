@@ -61,7 +61,7 @@ require_once './classes/boilerplate/Boilerplate.php';
             case 'todo': 
                     if (array_key_exists(2,$words)) {
                         if ($words[2] === 'run') {
-                            echo TodoList::run();
+                            echo TodoList::run('To-do List');
                         } else {
                             return;
                         }

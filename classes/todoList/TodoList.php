@@ -2,8 +2,8 @@
 
 class TodoList {
 
-   public static function run () {
-       return BaseHtml::genesis();
+   public static function run ($titleText = 'Document', $headTags = [], $bodyTags = []) {
+       return BaseHtml::genesis($titleText,$headTags,$bodyTags);
    }
 
 }
