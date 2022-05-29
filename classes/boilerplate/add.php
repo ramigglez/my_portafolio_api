@@ -59,11 +59,20 @@ require_once './classes/boilerplate/Boilerplate.php';
                 break;
 
             case 'todo': 
-                    echo json_encode([
-                        'status' => 200,
-                        'result' => 'to-do list program coming soon',
-                        'project_status' => 'underconstruction'
-                    ],http_response_code(200));
+                    if (array_key_exists(2,$words)) {
+                        if ($words[2] === 'run') {
+                            echo TodoList::run();
+                        } else {
+                            return;
+                        }
+                    }else {
+                        echo json_encode([
+                            'status' => 200,
+                            'result' => 'to-do list program coming soon',
+                            'project_status' => 'underconstruction',
+                            'run_program' => 'http://mi.project/todo/run'
+                        ],http_response_code(200));
+                    }
                 break;
 
             default: echo json_encode([
