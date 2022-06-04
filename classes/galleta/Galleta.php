@@ -25,9 +25,12 @@ class Galleta {
                     'Description' => 'Specifies whether a form should have autocomplete on or off'
                 ],
                 'attr_04' => [
-                    'Attribute' => '',
-                    'Value' => '',
-                    'Description' => ''
+                    'Attribute' => 'enctype',
+                    'Value' => 'application/x-www-form-urlencoded
+                    multipart/form-data
+                    text/plain',
+                    'Description' => 'Specifies how the form-data should be encoded 
+                    when submitting it to the server (only for method="post")'
                 ],
                 'attr_05' => [
                     'Attribute' => '',
