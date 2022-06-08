@@ -75,6 +75,8 @@ require_once './classes/boilerplate/Boilerplate.php';
                     }
                 break;
 
+            case 'cody': echo "Cody's space"; break;
+
             default: echo json_encode([
                 'status' => 404,
                 'result' => 'not found page',

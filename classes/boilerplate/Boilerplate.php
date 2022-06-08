@@ -175,6 +175,7 @@
                 'the_file_structure_documentation' => 'http://mi.project/files',
                 'the_attributes_list_for_the_form_html' => 'http://mi.project/attrsList',
                 'the_to_do_list_program' => 'http://mi.project/todo',
+                'cody_web_site' => 'http://mi.project/cody',
                 'the_404_error_code_page' => 'http://miproject/x',
                 'the_default_index_page' => 'http://mi.project'
             ]

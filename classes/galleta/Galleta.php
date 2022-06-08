@@ -38,9 +38,9 @@ class Galleta {
                     'Description' => 'Specifies the HTTP method to use when sending form-data'
                 ],
                 'attr_06' => [
-                    'Attribute' => '',
-                    'Value' => '',
-                    'Description' => ''
+                    'Attribute' => 'name',
+                    'Value' => 'text',
+                    'Description' => 'Specifies the name of a form'
                 ],
                 'attr_07' => [
                     'Attribute' => '',
