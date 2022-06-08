@@ -33,9 +33,9 @@ class Galleta {
                     when submitting it to the server (only for method="post")'
                 ],
                 'attr_05' => [
-                    'Attribute' => '',
-                    'Value' => '',
-                    'Description' => ''
+                    'Attribute' => 'method',
+                    'Value' => 'get || post',
+                    'Description' => 'Specifies the HTTP method to use when sending form-data'
                 ],
                 'attr_06' => [
                     'Attribute' => '',
