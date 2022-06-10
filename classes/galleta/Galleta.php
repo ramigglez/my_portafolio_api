@@ -69,7 +69,7 @@ class Galleta {
 
                     ],
                     'event' => [
-                        
+
                     ]
                 ]
             ]
@@ -95,12 +95,16 @@ class Galleta {
 
     }
 
-    public function cookie_form ($items) {
+    public function cookie_form (array $items) {
 
         $type = $item['type'];
 
         $attrs = $item['attrs'];
 
+    }
+
+    public function create_form () {
+        
     }
 
 }
