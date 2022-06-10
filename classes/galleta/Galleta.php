@@ -43,19 +43,34 @@ class Galleta {
                     'Description' => 'Specifies the name of a form'
                 ],
                 'attr_07' => [
-                    'Attribute' => '',
-                    'Value' => '',
-                    'Description' => ''
+                    'Attribute' => 'rel',
+                    'Value' => 'external
+                    help
+                    license
+                    next
+                    nofollow
+                    noopener
+                    noreferrer
+                    opener
+                    prev
+                    search',
+                    'Description' => 'Specifies the relationship between a linked resource and the current document'
                 ],
                 'attr_08' => [
-                    'Attribute' => '',
-                    'Value' => '',
-                    'Description' => ''
+                    'Attribute' => 'target',
+                    'Value' => '_blank
+                    _self
+                    _parent
+                    _top',
+                    'Description' => 'Specifies where to display the response that is received after submitting the form'
                 ],
-                'attr_09' => [
-                    'Attribute' => '',
-                    'Value' => '',
-                    'Description' => ''
+                'global_and_event_attrs' => [
+                    'global' => [
+
+                    ],
+                    'event' => [
+                        
+                    ]
                 ]
             ]
         ];
