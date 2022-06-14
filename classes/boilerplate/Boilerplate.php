@@ -176,7 +176,14 @@
                 'the_attributes_list_for_the_form_html' => 'http://mi.project/attrsList',
                 'the_to_do_list_program' => 'http://mi.project/todo',
                 'cody_web_site' => 'http://mi.project/cody',
-                'the_404_error_code_page' => 'http://miproject/x',
+                'the_404_error_code_page' => 'http://miproject/whatever',
+                'proyectos_1_50' => [
+                    'http://miproject/1',
+                    'http://miproject/2',
+                    'http://miproject/3',
+                    '...',
+                    'http://miproject/50',
+                ],
                 'the_default_index_page' => 'http://mi.project'
             ]
         ]);
