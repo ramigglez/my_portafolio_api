@@ -12,7 +12,10 @@
 
         public function getPreFix () {
 
-            return $this->prefix;
+            return json_encode ([
+                'status' => 200,
+                'prefix' => $this->prefix
+            ],http_response_code(200));
 
         }
 
