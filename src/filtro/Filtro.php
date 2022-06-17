@@ -19,6 +19,12 @@
 
         }
 
+        public function createHash ($data) {
+
+            
+
+        }
+
     }
 
 ?>
