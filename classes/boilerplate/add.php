@@ -1,4 +1,5 @@
 <?php
+
 //Mostrar Errores (section_01)
 ini_set('display_errors',1);
 ini_set('log_errors',1);
@@ -53,15 +54,20 @@ require_once './classes/boilerplate/Boilerplate.php';
             case 'files': files(); break;
 
             case 'attrsList': 
-                    require_once './classes/galleta/Galleta.php';
                     $gobj = new Galleta;
                     echo $gobj->attrs_list();
                 break;
 
             case 'todo': 
+                    $form = new Boilerplate;
                     if (array_key_exists(2,$words)) {
                         if ($words[2] === 'run') {
-                            echo TodoList::run('To-do List');
+                            echo TodoList::run('To-do List',[
+                                #head tags
+                            ],[
+                                #body tags
+                                $form->response('todo')
+                            ]);
                         } else {
                             return;
                         }

@@ -47,6 +47,12 @@
 
                 return json_encode($block,http_response_code($json['status']));
 
+            }else if ($x === 'todo'){
+                $obj = new Galleta;
+                return $obj->crete_form('form',['form_content'],[
+                    'method' => 'post',
+                    'action' => '#'
+                ]);
             } else {
 
                 require_once './classes/boilerplate/get_response.php';
@@ -199,6 +205,18 @@
 
     function doct () {
         return Bp::tg('!DOCTYPE',[],['html'],'Default','!');
+    }
+
+    function form_input ($input,$content,$attributes,$attr_type = 'One') {
+        if ($input !== 'input') {
+            if ($input !== 'form') {
+
+            }else{
+                return Bp::tg($input,$content,$attributes,$attr_type,'/');
+            }
+        } else {
+            return Bp::tg($input,[],$attributes,$attr_type,'@');
+        }
     }
 
 ?>

@@ -103,8 +103,12 @@ class Galleta {
 
     }
 
-    public function create_form () {
-        
+    public function create_form ($input,$content,$attributes,$attr_type = 'One') {
+        return form_input ($input,$content,$attributes,$attr_type);
+    }
+
+    public function create_input ($input,$attributes,$attr_type = 'One') {
+        return form_input ($input,[],$attributes,$attr_type);
     }
 
 }
