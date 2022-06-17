@@ -85,8 +85,6 @@
             switch ($key_word[1]) {
 
                 case 'hash': 
-                
-                    require_once './src/filtro/Filtro.php';
 
                     $this->end_points_three_parameters ($key_word); 
 
