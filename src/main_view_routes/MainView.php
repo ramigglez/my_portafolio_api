@@ -22,4 +22,7 @@
 
     }
 
+    #run || execute the function
+    getMainView ($main_view,true);
+
 ?>
