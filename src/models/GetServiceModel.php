@@ -12,11 +12,11 @@
 
             $connection = $statement->getConnection();
 
-            $aux = $connection->prepare($sql);
+            $data = $connection->prepare($sql);
 
-            $aux->execute();
+            $data->execute();
 
-            return $aux->fetchAll(PDO::FETCH_CLASS);
+            return $data->fetchAll(PDO::FETCH_CLASS);
 
         }
 
