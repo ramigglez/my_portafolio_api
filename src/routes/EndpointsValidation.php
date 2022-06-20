@@ -47,11 +47,7 @@
                             echo json_encode ($json,http_response_code($json['status']));    
                         break;
                         default: 
-                        $json = [
-                            'status' => 200,
-                            'result' => 'solicitud GET'
-                        ];
-                        echo json_encode ($json,http_response_code($json['status']));
+                        require_once './src/routes/services/GetService.php';
 
                     }
 
