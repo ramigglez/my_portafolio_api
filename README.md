@@ -27,3 +27,15 @@
     el archivo del controlador para <br>
     poder ejecutar la funcion getIndex()
 </p>
+
+<h2>Classes vs Functions</h2>
+
+<p>
+    Diferente metodos mismo resultado<br>
+    utiliza la variable $use que se encuentra<br>
+    en el index.php y coloca su valor = a 1 <br>
+    para ejecutar el programa (api) desde<br>
+    la programacion orientada a objetos o<br>
+    coloca 0 para ejecutar la api desde las<br>
+    funciones.
+</p>
