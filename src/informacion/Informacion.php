@@ -37,43 +37,9 @@
 
             } else {
 
-                echo json_encode ([
-                    'welcome to' => 'my api portafolio',
-                    'modules' => [
-                        [
-                            'class name' => 'Filtro',
-                            'methods' => [
-                                [
-                                    'name' => 'getPreFix ();'
-                                ],
-                                [
-                                    'name' => '__construct ();'
-                                ]
-                            ]
-                        ],
-                        [
-                            'class name' => 'Informacion',
-                            'methods' => [
-                                [
-                                    'name' => '__construct ();'
-                                ],
-                                [
-                                    'name' => 'url_reader ();'
-                                ],
-                                [
-                                    'name' => 'end_points_two_parameters ($key_word);'
-                                ],
-                                [
-                                    'name' => 'end_points_three_parameters ($key_word);'
-                                ]
-                            ]
-                        ]
-                    ],
-                    'endpoints' => [
-                        'http://mi.project',
-                        'http://mi.project/hash/1-9/create',
-                    ]
-                ]);
+                require_once './src/informacion/data.php';
+
+                echo $data;
 
             }
 
@@ -101,6 +67,8 @@
 
         public function end_points_three_parameters ($key_word) {
 
+            $obj = new Filtro ((int) $key_word[2]);
+
             switch ($key_word[3]) {
 
                 case 'create': 
@@ -109,9 +77,14 @@
 
                     $pf = json_decode($prefix);
 
+                    require_once './src/informacion/data.php';
+
                     echo json_encode ([
                         'prefix' => json_decode($prefix),
-                        'hash' => $pf->{'prefix'}.'valid-hash-example'
+                        'hash' => [
+                            'example' => $pf->{'prefix'}.'valid-hash-example',
+                            'hash' => json_decode($obj->createHash ($data,(int)$key_word[2]))
+                        ]
                     ]);
                 
                 break;
